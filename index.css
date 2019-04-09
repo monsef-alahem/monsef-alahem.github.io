@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    --grn-srn: #00EEA0;
+    color: var(--grn-srn);
+    /*color: #20C20E;*/
+    font-family: Hack, monospace;
+    width: 80%;
+}
+nav{
+    border :5px solid var(--grn-srn);
+    margin: 20px 20px 20px 20px ;
+    position : fixed;
+    top: 0;
+    left : 73%;
+    width : 20%;
+    height : 75%;
+    padding : 50px 10px 10px 30px ; /*up left down right*/
+    /*text-align: center;*/
+    /*float: right;*/
+}
+
+a{
+    font-family: Hack, monospace;
+    color: var(--grn-srn);
+    font-size: 20px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+#cursor {
+float: right;
+width: 10px;
+height: 14px;
+background: #20C20E;
+}
