@@ -32,7 +32,7 @@ function printWelcome() {
 
 function printpar() {
     var par1 = new Typed('.par1', {
-        strings : ['salut !<br>c\'est monsef, ce site s\'addresse au programmeurs et informaticiens !'],
+        strings : ['salut !<br>c\'est monsef, ce site s\'addresse au programmeurs et utilisateurs de linux,<br>parmi la liste vous trouverez plusieurs astuces concernants chaque disipline.'],
         stringsElement: null, 
         typeSpeed: 1, 
         backSpeed: -1,
