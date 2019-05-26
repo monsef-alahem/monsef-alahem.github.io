@@ -10,8 +10,17 @@
 
 <body>
 <h1>problèmes & solutions</h1>
-<h2>
-</h2>
+<h4>
+section programmation C:<br><br>
+
+P: mon thread ne se lance pas parallelement avec le fil d'execution principal de mon programme, voici mon code<br>
+code-> pthread_create(&thread, NULL, find_client(int i), NULL);<br>
+S: je vois que tu met la fonction et son parametre dans le même parametre alors qu'il faut les separer comme ceci<br>
+code-> pthread_create(&thread, NULL, find_client, (void*)id);<br><br>
+
+P: j'ecrit en arab avec SDL2-TTF mais les lettres sont tous ecrit sous leur forme isolé<br>
+S: SDL ne gere pas encore le formatage des lettre arab, il te faudera donc une bibliotheques specialise pour ce fait ex : Pongo, Arabtype, harf-buz<br><br>
+</h4>
 
 </body>
 </html>
