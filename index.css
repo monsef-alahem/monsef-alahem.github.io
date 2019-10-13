@@ -1,12 +1,12 @@
 body {
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
     background-color: #000;
     --grn-srn: #00EEA0;
     color: var(--grn-srn);
     /*color: #20C20E;*/
     font-family: Hack, monospace;
-    width: 80%;
+    width: 72%;
 }
 nav{
     border :5px solid var(--grn-srn);
