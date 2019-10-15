@@ -1,36 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>index</title>
-  
-  <!--biblios externes-->
-  <script src="jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="typed.min.js"></script>
+	<meta charset="utf-8">
 
-  <script src="index.js"></script>
-  <link rel="stylesheet" href="index.css">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+
+  <script src="../child_page.js"></script>
+ 
+	<link rel="stylesheet" type="text/css" href="site-css.css">
+	<title>Accueil</title>
 </head>
-
 <body>
-  <nav>
-  <!--  <a href="index.html">Index</a><br><br>-->
-  <a href="site file/index.html">présentation avec Choaib</a><br><br>
-  <a href="autoit.html">AutoIt</a><br><br>
-  <a href="python.html">Python</a><br><br>
-  <a href="C.html">C</a><br><br>
-  <a href="C++.html">C++</a><br><br>
-  <a href="batch.html">Batch</a><br><br>
-  <a href="linux.html">linux</a><br><br>
-  <a href="pro_sol.html">problemes et solutions</a><br><br>
-  <a href="mes_programmes.html">mes programmes</a>
-  </nav>
-<h1><span class="welcomemsg"></span></h1>
-<h4><span class="par1"></span></h4>
-<h4>Avis : chers visiteurs, le site est actuellement en phase "d'enrichissement", fin de l'opération prévu pour le 17 octobre 2019.</h4>
+	<header>
+		<a href=""><button id="page-on">Accueil</button></a><a href=""><button>AutoIt</button></a><a href=""><button>Python</button></a><a href=""><button>C/C++</button></a><a href=""><button>Batch</button></a><a href=""><button id="pro-et-solu">Problémes et solutions</button></a>
+	<header>
+	<section class="image">
+		<img src="images/backgound.jpg">
+	</section>
+	<nav id="navop"><a href="#autoit"><button>AutoIt</button></a><a href="#python"><button>Python</button></a><a href="#c"><button>C/C++</button></a><a href="#az"><button>Batch</button></a><a href="#cp"><button>Problémes et solutions</button></a><a href="#footer"><button>About</button></a></nav>
+	<nav class="bienvenue">
+		<h1 align="left">Bienvenue</h1>
+		<p>	
+			salut !<br>
+			c'est Choaib, cette page est une brève présentation de quelques langages de programmation.
+	    </p><img src="images/termi.png" align="center">
+			
+	</nav>
+	<section  id="autoit">
+		<h1>AutoIt</h1>
+		<p>AutoIt (prononcer aow-toh-it)2 est un langage de script freeware permettant de créer des automatisations sous le système d’exploitation Microsoft Windows. Dans ses premières versions, le logiciel était principalement destiné à créer des scripts d'automatisation (parfois appelés macros) pour des programmes Microsoft Windows.<br>
+		<br><img src="images/auto.jpg"><br><br><a href=""><button>Voir les sujets</button></a></p>
+		
+	</section>
+	<section>
+		
+	</section>
+	<section  id="python">
+		<h1>Python</h1>
+		<p>Python est un langage de script de haut niveau, structuré et open source. Il est multi-paradigme et multi-usage. Développé à l'origine par Guido van Rossum en 1989, il est, comme la plupart des applications et outils open source, maintenu par une équipe de développeurs un peu partout dans le monde.
+		<br><img src="images/python.jpg"><br><br><a href=""><button>Voir les sujets</button></a></p>
+	</section>
+	<section  id="c">
+		<h1>C/C++</h1>
+		<p>C++ est un langage de programmation compilé permettant la programmation sous de multiples paradigmes (comme la programmation procédurale, orientée objet ou générique). ... Créé initialement par Bjarne Stroustrup dans les années 1980, le langage C++ est aujourd'hui normalisé par l'ISO.
 
+		<br><img src="images/cp.png"><br><br><a href=""><button>Voir les sujets</button></a></p>
+	</section>
+	<section id="az">
+		<h1>Batch</h1>
+		<p>	un traitement par lots, en informatique, un enchainement automatique de commandes ;
+			un fichier batch, permettant une prise en charge élémentaire du traitement par lots dans les systèmes Windows ;
+			un traitement par lots, ou « procédé batch », dans l’industrie, qui permet la production par une série de tâches.
+		<br><img src="images/batch.jpg"><br><br><a href=""><button>Voir les sujets</button></a></p><br><br><br>
+	</section>
+	<section  id="cp">
+		<h1>Problémes et solutions</h1>
+		<p>pas de problèmes pour le moment.
+		<br><img src="images/pro.jpg"><br><br><a href=""><button>Voir les sujets</button></a></p>
+	</section>
+	<span id="views_counter" class="views_counter"></span>
+	<footer>
+		<div id="footer"><br><br>
+		<span>Resources</span><br><br>
+		<a href="">Contact</a> <br><br>
+		<a href=""> About</a> <br><br>
+		<span id="views_counter" class="views_counter"></span>
+		<a href="">Privacy and terms of use</a> <br><br>
+
+		<dir align="right">Copyright © All right reserved to LOUMEDEN Choaib Inc</dir> <br>
+	</footer>
 </body>
-</html>
 
-&nbsp;
+</html>

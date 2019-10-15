@@ -2,29 +2,32 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>C/C++</title>
- 
+  <title>C++</title>
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+
+  <script src="child_page.js"></script>
   <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
-<h1>C/C++</h1>
+<h1>C++</h1>
 <h4>
-compiler un fichier C avec CMD:<br><br>
+bon alors là, le C++ c'est une version améliorée de C (d'où le nom, car "++" signifie incrémentation) mais à part le concept POO programmation orientée objet et des nouvelles fonctions, C et C++ sont assez similaires<br><br>
+compiler un fichier C++ avec CMD (notez que appart g++ et .cpp c'est la même chose que C):<br><br>
 
-gcc -o my_exe.exe my_c_file.c<br><br>
+g++ -o my_exe.exe my_c++_file.cpp<br><br>
 
-les quatre phases de compilation :<br><br>
+exemple de compilation avec C++<br>
 
-1- le préprocessing<br>
-2- la compilation<br>
-3- l'assemblage<br>
-4- la liaison<br><br>
-
-exemple de compilation avec C/C++<br>
-
-note : gcc doit etre accecible a travers CMD<br><br>
+note : g++ doit etre accecible a travers CMD, pour en être sûre, ouvrez la console aver le raccourci window+R, tapez cmd et validez.<br><br>
+On teste ? tapez g++, si la commande est introuvable
 
 SDL :<br><br>
 
@@ -42,6 +45,8 @@ gcc -c  *.c <br>
 gcc -o myapp.exe *.o  -lpthread -lws2_32<br>
 start myapp.exe"
 </h4>
+
+<h4><span id="views_counter" class="views_counter"></span></h4>
 
 </body>
 </html>
