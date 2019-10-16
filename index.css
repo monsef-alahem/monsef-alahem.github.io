@@ -22,7 +22,7 @@ nav{
 }
 
 a{
-    font-family: Hack, monospace;
+    font-family: Hack;
     color: var(--grn-srn);
     font-size: 20px;
 
@@ -30,6 +30,9 @@ a{
 
 h1{
     text-align: center;
+}
+h4{
+    line-height: 150%;
 }
 
 
