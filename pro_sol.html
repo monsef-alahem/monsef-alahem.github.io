@@ -33,9 +33,9 @@
   </nav>
 
 <h1>problèmes & solutions</h1>
-<h4>
-section programmation C:<br><br>
+<h2>section programmation C:<br></h2>
 
+<h4>
 P: mon thread ne se lance pas parallelement avec le fil d'execution principal de mon programme, voici mon code<br>
 code-> pthread_create(&thread, NULL, find_client(int i), NULL);<br>
 S: je vois que tu met la fonction et son parametre dans le même parametre alors qu'il faut les separer comme ceci<br>
@@ -43,14 +43,13 @@ code-> pthread_create(&thread, NULL, find_client, (void*)id);<br><br>
 
 P: j'ecrit en arab avec SDL2-TTF mais les lettres sont tous ecrit sous leur forme isolé<br>
 S: SDL ne gere pas encore le formatage des lettre arab, il te faudera donc une bibliotheques specialise pour ce fait ex : Pongo, Arabtype, harf-buz<br><br>
+</h4>
 
-section programmation Python:<br><br>
+<h2>section programmation Python:<br><br></h2>
 
+<h4>
 P: j'essaie de builder une application kivy 1.11.0 avec Python 3 et java jdk 11, mais rien à faire, java retourne une erreur sur le "main thread".<br>
-S: en effet c'est normal, buildozer marche avec java jdk 8, donc install jdk 8 si tu ne l'as pas sur ta machine, puis tape les commandes suivantes (bien sûre je supose que tu es sur linux car buildozer n'est pas encore disponible pour Windows) :<br>
-$
-$
-<br>
+S: en effet c'est normal, buildozer marche avec java jdk 8, donc désinstall jdk 11 et install jdk 8 si tu ne l'as pas sur ta machine (bien sûre je supose que tu es sur linux car buildozer n'est pas encore disponible pour Windows).<br>
 </h4>
 
 <h4><span id="views_counter" class="views_counter"></span></h4>

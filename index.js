@@ -155,7 +155,7 @@ function printview() {
 
 function printWelcome() {
     var welcomemsg = new Typed('.welcomemsg', {
-        strings : ['Bienvenu'],
+        strings : ['Bienvenue'],
         stringsElement: null, 
         typeSpeed: 20, 
         backSpeed: -1,

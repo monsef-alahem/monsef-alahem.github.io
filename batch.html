@@ -53,7 +53,7 @@ echo HE !!! monsef !<br>
 pause<br><br>
 
 exercice :<br>
-changer ce programme pour qui vous appelle par votre nom.<br>
+changer ce programme pour qu'il vous appelle par votre nom.<br>
 </h4>
 
 <h2>séance 2</h2>
@@ -64,3 +64,32 @@ changer ce programme pour qui vous appelle par votre nom.<br>
 
 </body>
 </html>
+
+<!-- ::author : Monsef ALAHEM
+:: date : 2017
+@echo off
+:: en second, càd chaque 20 minutes
+set frequence= 1200 
+::ms càd 1 minute 
+set duree= 60000                   
+:loop
+
+timeout /t %frequence%                              
+start deban.exe %duree%
+
+goto loop 
+
+
+
+
+
+::author : Monsef ALAHEM
+:: date : 2017
+@echo off
+set frequence= 2
+set duree= 30000
+
+:loop
+timeout /t %frequence%
+start deban.exe %duree%
+goto loop -->

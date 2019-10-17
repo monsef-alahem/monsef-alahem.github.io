@@ -17,6 +17,19 @@
 </head>
 
 <body>
+<nav>
+  <!--  <a href="index.html">Index</a><br><br>-->
+  <a href="index.html">Acceuil</a><br><br>
+  <a href="site file/index.html">présentation avec Choaib</a><br><br>
+  <a href="autoit.html">AutoIt</a><br><br>
+  <a href="python.html">Python</a><br><br>
+  <a href="C.html">C</a><br><br>
+  <a href="C++.html">C++</a><br><br>
+  <a href="batch.html">Batch</a><br><br>
+  <a href="linux.html">linux</a><br><br>
+  <a href="pro_sol.html">problemes et solutions</a><br><br>
+  <a href="mes_programmes.html">mes programmes</a>
+  </nav>
 <h1>C++</h1>
 <h4>
 bon alors là, le C++ c'est une version améliorée de C (d'où le nom, car "++" signifie incrémentation) mais à part le concept POO programmation orientée objet et des nouvelles fonctions, C et C++ sont assez similaires<br><br>
@@ -24,12 +37,22 @@ compiler un fichier C++ avec CMD (notez que appart g++ et .cpp c'est la même ch
 
 g++ -o my_exe.exe my_c++_file.cpp<br><br>
 
-exemple de compilation avec C++<br>
+pour les phases de compilations jettez un coup d'oeuil à la page C.<br><br>
+</h4>
 
+<h2>
+exemples de compilation avec C++<br>
+</h2>
+
+<h4>
 note : g++ doit etre accecible a travers CMD, pour en être sûre, ouvrez la console aver le raccourci window+R, tapez cmd et validez.<br><br>
 On teste ? tapez g++, si la commande est introuvable
 
 SDL :<br><br>
+
+g++ -c --std=c++11 *.cpp <br>
+g++ -o myapp.exe *.o  -lSDLmain -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf<br>
+start myapp.exe"<br><br>
 
 C++ 2011 & SDL2 :<br><br>
 
@@ -39,11 +62,22 @@ start myapp.exe"<br><br>
 
 SFML :<br><br>
 
-C & pthread & socket :<br><br>
+g++ -c --std=c++11 *.cpp <br>
+g++ -o myapp.exe *.o  -lsfml-graphics -lsfml-window -lsfml-system<br>
+start myapp.exe"<br><br>
 
-gcc -c  *.c <br>
-gcc -o myapp.exe *.o  -lpthread -lws2_32<br>
-start myapp.exe"
+openGL avec SDL2 :<br><br>
+
+g++ -c *.cpp <br>
+g++ -o myapp.exe *.o  -lSDL2main -lSDL2 -lglu32 -lopengl32 -lglew32 <br>
+start myapp.exe"<br><br>
+
+Windows (pour manipuler le système :O) :<br><br>
+
+g++ -c *.cpp <br>
+g++ -o myapp.exe *.o  -lgdi32 -luser32 -lkernel32 -lPsapi<br>
+start myapp.exe"<br><br>
+
 </h4>
 
 <h4><span id="views_counter" class="views_counter"></span></h4>
