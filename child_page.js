@@ -31,6 +31,8 @@ function get_reference (val) {
         return "vue_python"
     } else if (val == "Accueil") {
         return "vue_choaib"
+    } else if (val == "articles scientifiques") {
+        return "vue_scien"
     }
 }
 
