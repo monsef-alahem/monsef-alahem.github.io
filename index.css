@@ -42,3 +42,15 @@ width: 10px;
 height: 14px;
 background: #20C20E;
 }
+
+
+table,
+td {
+    border: 1px solid #20C20E;
+}
+
+thead,
+tfoot {
+    background-color: var(--grn-srn);
+    color: #000;
+}
