@@ -155,7 +155,7 @@ function printview() {
 
 function printWelcome() {
     var welcomemsg = new Typed('.welcomemsg', {
-        strings : ['Bienvenue'],
+        strings : ['Welcome'],
         stringsElement: null, 
         typeSpeed: 20, 
         backSpeed: -1,
@@ -173,7 +173,7 @@ function printWelcome() {
 
 function printpar() {
     var par1 = new Typed('.par1', {
-        strings : ['salut !<br>c\'est monsef, je vous présente sur ce site des études de quelques-uns de mes programmes, ainsi que quelques astuces de programmation lesquelles j\'ai eu besoin en travaillant sur des projets, qui sait ses notes seront peut-être utile à un programmeur, un linuxien ou tout simplement un amateur d\'informatique.'],
+        strings : ['Hello !<br>Hello !<br>This is monsef, I present you on this website some studies of some of my programs, as well as some programming tricks that I needed while working on projects, who knows these notes might be useful to a programmer, a linuxian or simply a computer lover.'],
         stringsElement: null, 
         typeSpeed: 1, 
         backSpeed: -1,
