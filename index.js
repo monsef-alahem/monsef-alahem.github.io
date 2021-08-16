@@ -173,7 +173,7 @@ function printWelcome() {
 
 function printpar() {
     var par1 = new Typed('.par1', {
-        strings : ['Hello !<br>Hello !<br>This is monsef, I present you on this website some studies of some of my programs, as well as some programming tricks that I needed while working on projects, who knows these notes might be useful to a programmer, a linuxian or simply a computer lover.'],
+        strings : ['Hello !<br>This is monsef, I present you on this website some studies of some of my programs, as well as some programming tricks that I needed while working on projects, who knows these notes might be useful to a programmer, a linuxian or simply a computer lover.'],
         stringsElement: null, 
         typeSpeed: 1, 
         backSpeed: -1,
