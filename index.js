@@ -130,7 +130,7 @@ function printview() {
         var views = parseInt(document.getElementById('views_counter').innerHTML);
         //alert(x + '' + views);
         refs.set(x);
-        document.getElementById('views_counter').innerHTML = ("consulté " + x + " fois");
+        document.getElementById('views_counter').innerHTML = (x + " views");
         //var temp = {v: 0};
         //refs.set(temp.v);
         });//snap.val()
