@@ -137,7 +137,7 @@ function printview() {
    // }
 
   // var welcomemsg = new Typed('.views_counter', {
-  //       strings : ['consulté ' + data.v + ' fois'],
+  //       strings : [data.v + ' views'],
   //       stringsElement: null, 
   //       typeSpeed: 20, 
   //       backSpeed: -1,
