@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function get_reference (val) {
     if (val == "linux") {
         return "vue_linux"
-    } else if (val == "mes programmes") {
+    } else if (val == "my programs") {
         return "vue_prog"
     } else if (val == "autoit") {
         return "vue_autoit"
@@ -31,7 +31,7 @@ function get_reference (val) {
         return "vue_python"
     } else if (val == "Accueil") {
         return "vue_choaib"
-    } else if (val == "articles scientifiques") {
+    } else if (val == "Scientific articles") {
         return "vue_scien"
     }
 }
@@ -51,7 +51,7 @@ function printview() {
         document.getElementById('views_counter').innerHTML = x;
         var views = parseInt(document.getElementById('views_counter').innerHTML);
         refs.set(x);
-        document.getElementById('views_counter').innerHTML = ("consulté " + x + " fois");
+        document.getElementById('views_counter').innerHTML = (x + " views");
         });
 }
 
