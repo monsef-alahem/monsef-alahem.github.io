@@ -1,6 +1,16 @@
 //<!-- TODO: Add SDKs for Firebase products that you want to use 
 //https://firebase.google.com/docs/web/setup#available-libraries -->
 
+{
+                                sleep(1000);
+                                  refs.on('value', snap => {
+                                  var x = snap.val();
+                                  x++;
+                                  document.getElementById('views_counter').innerHTML = x;
+                                  var views = parseInt(document.getElementById('views_counter').innerHTML);
+                                  alert(x + '' + views);
+                                  refs.set(x);
+
   // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyD_6_ENPnJpY5j3UQfuEf1pWinaI-NQXuk",
@@ -19,6 +29,11 @@
         temp.v++;
         alert(temp.v);
       });
+
+//write
+  function increase(temp) { //increase
+    //database.ref('vue').set(temp.v);
+  }
 
 
   //===========================================================================
